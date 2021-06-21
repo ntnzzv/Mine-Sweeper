@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="131.0" prefWidth="269.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextField fx:id="Bar" alignment="CENTER" layoutX="27.0" layoutY="88.0" prefHeight="25.0" prefWidth="211.0" style="-fx-background-color: darkgreen;" text="0">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </TextField>
+      <Button fx:id="Yardenabtn" layoutX="37.0" layoutY="39.0" mnemonicParsing="false" onKeyPressed="#Decreaser" text="Yardena Arazi" />
+      <Button fx:id="Ofrabtn" layoutX="156.0" layoutY="39.0" mnemonicParsing="false" onKeyPressed="#Increaser" text="Ofra Haza" />
+   </children>
+</Pane>
